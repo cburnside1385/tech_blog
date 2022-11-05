@@ -1,0 +1,30 @@
+{
+  "name": "tech_blog",
+  "version": "1.0.0",
+  "description": "mvc tech blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cburnside1385/tech_blog.git"
+  },
+  "author": "cburnside",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cburnside1385/tech_blog/issues"
+  },
+  "homepage": "https://github.com/cburnside1385/tech_blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "i": "^0.3.7",
+    "mysql2": "^2.3.3",
+    "npm": "^8.19.3",
+    "sequelize": "^6.25.3"
+  }
+}
