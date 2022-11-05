@@ -1,0 +1,10 @@
+module.exports = function(sequelize, DataTypes) {
+    var Profile = sequelize.define('Profile', {
+        name_first: DataTypes.STRING,
+        name_last: DataTypes.STRING,
+        description: DataTypes.STRING,
+        age: DataTypes.INTEGER,
+    }); 
+
+    return Profile;
+}; 
